@@ -203,10 +203,16 @@ body{
 
 }
 
-@media screen and (min-width:586px) and (max-width:1023px){
+
+/*Mobil*/
+@media screen and (max-width:585px){
 
   body{
     width:100%;
+  }
+
+  h2 {
+    font-size: 40px;
   }
 
   .container{
@@ -224,5 +230,64 @@ body{
     }
 
   }
+
+/* Tablet */
+@media screen and (min-width:568px) and (max-width: 914px){
+
+  body{
+    width:100%;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  .container{
+    justify-content: center;
+  }
+
+    header nav ul li{
+      width: 100%;
+      text-align: center;
+    }
+
+    .thirty{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+  }
+
+}
+
+@media screen and (min-width:915px) and (max-width: 1023px){
+
+  body{
+    width:100%;
+  }
+
+  .container{
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 80px;
+    color: pink;
+  }
+
+    header nav ul li{
+      text-align: center;
+    }
+
+    .thirty{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+  }
+
+}
+
+@media screen and (min-width:1024px) and (max-width: 1280px){
 
 }
